@@ -51,7 +51,7 @@ const jourTravaille = (date) => {
   const dayName = getDayName(date.getDay());
   for (const dateFerie of datesFerie) {
     const [jourFerie, moisFerie, anneeFerie] = dateFerie.split("/");
-    if (jourFerie == jour && moisFerie == mois && dayName == "Samedi") {
+    if (jourFerie == jour && moisFerie == mois && dayName == "Samedi" || dayName == "Dimanche") {
       console.log(`Non ,le ${dayName} ${jourFerie}  ${annee} est un week-end`);
       return;
     } else if (jourFerie == jour && moisFerie == mois && dayName != "Samedi") {
