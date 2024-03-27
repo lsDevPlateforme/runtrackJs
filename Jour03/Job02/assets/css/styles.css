@@ -1,0 +1,17 @@
+.container {
+  border: 1px solid black;
+  min-height: 50vh;
+  display: flex;
+  align-items: stretch;
+  /* gap: 10px; */
+}
+
+.slot {
+  flex: 1;
+  border: 2px dashed #ccc;
+}
+
+.slot img {
+  width: 100%;
+  height: auto;
+}

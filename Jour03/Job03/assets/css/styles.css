@@ -1,0 +1,25 @@
+#taquin {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+}
+
+.tuile {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.tuile img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.vide {
+  background-color: white;
+  cursor: default;
+}
