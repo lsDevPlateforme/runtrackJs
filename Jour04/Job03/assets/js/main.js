@@ -36,17 +36,17 @@ const displayPokemon = (pokemon) => {
     </div>
     <div class="card__name">
         <p>English: ${pokemon.name.english}</p>
-        <p>japanese: ${pokemon.name.english}</p>
-        <p>chinese: ${pokemon.name.english}</p>
-        <p>french: ${pokemon.name.english}</p>
+        <p>japanese: ${pokemon.name.japanese}</p>
+        <p>chinese: ${pokemon.name.chinese}</p>
+        <p>french: ${pokemon.name.french}</p>
     </div>
     <div class="card__base">
         <p>HP: ${pokemon.base.HP}</p>
-        <p>Attack: ${pokemon.base.HP}</p>
-        <p>Defense: ${pokemon.base.HP}</p>
-        <p>Sp. Attack: ${pokemon.base.HP}</p>
-        <p>Sp. Defense: ${pokemon.base.HP}</p>
-        <p>Speed: ${pokemon.base.HP}</p>
+        <p>Attack: ${pokemon.base.Attack}</p>
+        <p>Defense: ${pokemon.base.Defense}</p>
+        <p>Sp. Attack: ${pokemon.base["Sp. Attack"]}</p>
+        <p>Sp. Defense: ${pokemon.base["Sp. Defense"]}</p>
+        <p>Speed: ${pokemon.base.Speed}</p>
     </div>
     `;
   galeryPokemon.appendChild(div);
