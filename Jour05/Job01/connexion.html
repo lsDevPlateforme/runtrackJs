@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- IMPORTS ICONS-->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <a class="button button__login" href="./inscription.html">Inscription</a>
+        <a class="button button__signup" href="./connexion.html">Connexion</a>
+    </header>
+    <main class="main">
+        <form action="" class="form" id="form">
+            <div class="form__row">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <p class="error__message" id="error-email"></p>
+            <div class="form__row">
+                <label for="mdp">Mot de passe:</label>
+                <input type="password" name="mdp" id="mdp">
+            </div>
+            <p class="error__message" id="error-mdp"></p>
+            <button class="button" id="submit">Connexion</button>
+        </form>
+    </main>
+    <!-- JS -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

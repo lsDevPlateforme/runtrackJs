@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- IMPORTS ICONS-->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <a class="button button__login" href="./inscription.html">Inscription</a>
+        <a class="button button__signup" href="./connexion.html">Connexion</a>
+    </header>
+    <main class="main">
+        <form action="" class="form" id="form">
+            <div class="form__row">
+                <label for="nom">Nom:</label>
+                <input type="text" name="nom" id="nom">
+            </div>
+            <p class="error__message" id="error-nom"></p>
+            <div class="form__row">
+                <label for="prenom">Prenom:</label>
+                <input type="text" name="prenom" id="prenom">
+            </div>
+            <p class="error__message" id="error-prenom"></p>
+            <div class="form__row">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <p class="error__message" id="error-email"></p>
+            <div class="form__row">
+                <label for="mdp">Mot de passe:</label>
+                <input type="password" name="mdp" id="mdp">
+            </div>
+            <p class="error__message" id="error-mdp"></p>
+            <div class="form__row">
+                <label for="adress">Adress:</label>
+                <input type="text" name="adress" id="adress">
+            </div>
+            <p class="error__message" id="error-adress"></p>
+            <div class="form__row">
+                <label for="postal">Code Postal:</label>
+                <input type="text" name="postal" id="postal">
+            </div>
+            <p class="error__message" id="error-postal"></p>
+            <button class="button" id="submit">Envoyer</button>
+        </form>
+    </main>
+    <!-- JS -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
